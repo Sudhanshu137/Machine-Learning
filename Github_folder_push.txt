@@ -1,0 +1,34 @@
+Github folder push
+
+
+1. git init //initializes git in the folder using git bash
+
+2. git add . // all folders inside added to staging  area //are before commiting
+
+3. git status // shows new file need to be commit or push
+
+4. git commit -m "message" //commits changes
+
+5. git branch -m main // changes branch from default master to main
+
+6.git remote add origin GitHub link
+
+7.git push -u origin main // shows error if you are working on master 
+
+NOTE :-
+
+use this command if you encounter this error and again push
+
+git push -u origin main
+To https://github.com/Sudhanshu137/ML_22052424.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Sudhanshu137/ML_22052424.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+USE 
+
+git pull origin main --rebase
